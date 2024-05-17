@@ -1,16 +1,14 @@
-import Image from 'next/image'
-import Styles from './page.module.sass'
 
-export default function Home() {
+
+export default function Home({children}: {children: React.ReactNode}) {
+
+  
+
+ 
   return (
     <>
-      <form
-      className={Styles.Form}
-    >
-      <input type='search' />
-      <input type="button" value='Search' />
-    </form>
+      {children}
     </>
     
   )
-}
+};
