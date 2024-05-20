@@ -2,7 +2,7 @@
 import { MyContext } from "../../context/Context";
 import { useContext, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import Modal from "../../components/modal/page";
+import Modal from "../../components/modal/modal";
 
 
 const Info = () => {
