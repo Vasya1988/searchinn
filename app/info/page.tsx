@@ -1,14 +1,17 @@
-'use client'
-import { ReactNode } from "react"
+'use client';
+
+import { ReactNode } from 'react';
 
 interface PageProps {
-    children: ReactNode
+    children: ReactNode;
 }
-const InnName = ({children}: PageProps) => {
+
+const Info = ({ children }: PageProps) => {
     return (
         <>
             {children}
         </>
-    )
-}
-export default InnName;
+    );
+};
+
+export default Info;

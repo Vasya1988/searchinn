@@ -4,7 +4,7 @@ import { useContext, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Modal from "@/app/components/modal/Modal";
 
-const InnName = () => {
+const Info = () => {
 
     const {info} = useContext(MyContext);
     const router = useRouter()
@@ -60,4 +60,4 @@ const InnName = () => {
         </div>
     )
 }
-export default InnName;
+export default Info;
