@@ -2,7 +2,7 @@
 import { MyContext } from "@/app/context/Context";
 import { useContext, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import Modal from "@/app/components/modal/page";
+import Modal from "@/app/components/modal/Modal";
 
 const InnName = () => {
 
