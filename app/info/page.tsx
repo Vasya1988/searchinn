@@ -1,8 +1,10 @@
 'use client'
-import { MyContext } from "@/app/context/Context";
-import { useContext, useEffect } from "react";
+import { ReactNode } from "react"
 
-const InnName = ({children}: {children: React.ReactNode}) => {
+interface PageProps {
+    children: ReactNode
+}
+const InnName = ({children}: PageProps) => {
     return (
         <>
             {children}
