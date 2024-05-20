@@ -1,10 +1,9 @@
 'use client'
 import Styles from './Search.module.sass';
 import Link from 'next/link';
-import { useContext, useEffect, useState } from 'react';
+import { useContext, useState } from 'react';
 import { MyContext } from '../../context/Context'
 import { useRouter } from 'next/navigation';
-import Errorpage from '@/app/errorpage/page';
 
 const Search = () => {
 
@@ -85,7 +84,7 @@ const Search = () => {
             </form>
 
             {
-                checkError && <Errorpage />
+                checkError && <h1>Error: ИНН не найден!</h1>
             }
         </>
         

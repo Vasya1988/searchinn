@@ -1,8 +1,8 @@
 'use client'
 import { MyContext } from "@/app/context/Context";
 import { useContext, useEffect, useState } from "react";
-import ModalFrame from '../../components/modalFrame/page'
 import { useRouter } from "next/navigation";
+import Modal from "@/app/components/modal/page";
 
 const InnName = () => {
 
@@ -54,7 +54,7 @@ const InnName = () => {
             </a>
 
             {
-                isModalOpen && <ModalFrame confirm={handleConfirm} cancel={handleCancel} />
+                isModalOpen && <Modal confirm={handleConfirm} cancel={handleCancel} />
             }
 
         </div>
