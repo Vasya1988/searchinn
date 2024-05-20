@@ -1,9 +1,8 @@
 'use client'
-import { MyContext } from "@/app/context/Context";
+import { MyContext } from "../../context/Context";
 import { useContext, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import Modal from "@/app/components/modal/Modal";
-
+import Modal from "../../components/modal/page";
 
 
 const Info = () => {
