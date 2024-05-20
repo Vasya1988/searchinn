@@ -19,7 +19,7 @@ const Search = () => {
     // функция запроса к api
     const getApiInfo = async (props?: string) => {
 
-        const url = 'http://suggestions.dadata.ru/suggestions/api/4_1/rs/findById/party';
+        const url = 'https://suggestions.dadata.ru/suggestions/api/4_1/rs/findById/party';
         const token = '945042a7822c0a45fe52fe8ee1cbc191cfca281f';
         let query = props || '7721705169'; // 7721705169, 7707083893
 
