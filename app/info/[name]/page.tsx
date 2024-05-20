@@ -1,7 +1,7 @@
 'use client'
 import { MyContext } from "@/app/context/Context";
 import { useContext, useEffect, useState } from "react";
-import ModalFrame from "@/app/components/modalFrame/page";
+import ModalFrame from '../../components/modalFrame/page'
 import { useRouter } from "next/navigation";
 
 const InnName = () => {
