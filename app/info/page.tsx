@@ -1,7 +1,7 @@
 
-import { ReactNode } from 'react';
 
-const Info = ({ children }: {children: ReactNode}) => {
+
+const Info = (children: any) => {
     return (
         <>
             {children}
