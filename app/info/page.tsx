@@ -1,10 +1,8 @@
 
-
-
-const Info = (children: any) => {
+const Info = () => {
     return (
         <>
-            {children}
+            
         </>
     );
 };
