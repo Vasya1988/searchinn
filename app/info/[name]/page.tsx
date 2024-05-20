@@ -4,6 +4,8 @@ import { useContext, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Modal from "@/app/components/modal/Modal";
 
+
+
 const Info = () => {
 
     const {info} = useContext(MyContext);
