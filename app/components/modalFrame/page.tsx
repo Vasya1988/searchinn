@@ -1,10 +1,8 @@
 import Styles from './ModalFrame.module.sass';
+import React from 'react';
 
-interface ModalProps {
-    confirm: () =>  void,
-    cancel: () => void
-}
-const ModalFrame = ({confirm, cancel}: ModalProps) => {
+
+const ModalFrame = ({confirm, cancel}: {confirm: ()=>void; cancel: ()=>void}) => {
     return (
         <div className={Styles.ModalBackground}>
             <div className={Styles.ModalFrame} >
