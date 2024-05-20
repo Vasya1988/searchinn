@@ -1,12 +1,7 @@
-'use client';
 
 import { ReactNode } from 'react';
 
-interface PageProps {
-    children: ReactNode;
-}
-
-const Info = ({ children }: PageProps) => {
+const Info = ({ children }: {children: ReactNode}) => {
     return (
         <>
             {children}
